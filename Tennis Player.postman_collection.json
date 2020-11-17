@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "a62c1f03-e7f9-4332-81b2-ef3499f988ba",
+		"name": "Tennis Player",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "add new ball to container by player id and container id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/container-balls?player_id=1&container_id=abc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"container-balls"
+					],
+					"query": [
+						{
+							"key": "player_id",
+							"value": "1"
+						},
+						{
+							"key": "container_id",
+							"value": "abc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
